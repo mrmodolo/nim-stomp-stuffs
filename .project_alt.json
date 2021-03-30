@@ -1,0 +1,4 @@
+{
+  "src/*.nim": {"alternate": "test/{}.nim"},
+  "test/*.nim": {"alternate": "src/{}.nim"}
+}
