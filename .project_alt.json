@@ -1,4 +1,4 @@
 {
-  "src/*.nim": {"alternate": "test/{}.nim"},
-  "test/*.nim": {"alternate": "src/{}.nim"}
+  "src/*.nim": {"alternate": "tests/{}.nim"},
+  "tests/*.nim": {"alternate": "src/{}.nim"}
 }

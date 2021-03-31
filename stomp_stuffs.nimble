@@ -6,7 +6,7 @@ author        = "Marcelo Módolo <marcelo.rmodolo@gmail.com>"
 description   = "Alguns testes."
 license       = "MIT"
 srcDir        = "src"
-bin           = @["main"]
+bin           = @["nim"]
 
 
 # Dependencies
@@ -21,3 +21,7 @@ task build, "make":
 task run, "nimble run":
   withDir "build":
     exec "./main"
+
+#task test, "Run all tests":
+#  withDir "test":
+#    exec r"nim c -r test_escape"
