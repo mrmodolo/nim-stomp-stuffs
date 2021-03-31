@@ -6,7 +6,8 @@ author        = "Marcelo Módolo <marcelo.rmodolo@gmail.com>"
 description   = "Alguns testes."
 license       = "MIT"
 srcDir        = "src"
-bin           = @["nim"]
+bin           = @["main"] # will be overwritten by the command below
+namedBin      = {"main": "./build/main"}.toTable()
 
 
 # Dependencies
