@@ -31,3 +31,4 @@ block:
 # "can unescape STOMP V1.1"
 block:
   doAssert UNESCAPED_V11 == utils.unescapeV11(ESCAPED_V11)
+
