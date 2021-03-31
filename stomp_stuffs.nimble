@@ -6,9 +6,12 @@ author        = "Marcelo Módolo <marcelo.rmodolo@gmail.com>"
 description   = "Alguns testes."
 license       = "MIT"
 srcDir        = "src"
+binDir        = "build"
 bin           = @["main"] # will be overwritten by the command below
-namedBin      = {"main": "./build/main"}.toTable()
 
+## Não é necessário quando o binDir= é especificado
+## namedBin      = {"main": "./build/main"}.toTable()
+##
 
 # Dependencies
 
