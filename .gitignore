@@ -1,1 +1,4 @@
 nimcache
+build
+testresults
+.cache
