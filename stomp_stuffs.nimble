@@ -26,6 +26,10 @@ task run, "nimble run":
   withDir "build":
     exec "./main"
 
+task tests, "Run all tests":
+  # exec "testament all"
+  exec "testament pattern \"tests/*.nim\""
+
 #task test, "Run all tests":
 #  withDir "test":
 #    exec r"nim c -r test_escape"

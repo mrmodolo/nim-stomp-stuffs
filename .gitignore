@@ -5,3 +5,5 @@ nimcache
 build
 testresults
 .cache
+outputGotten.txt
+tests/megatest.nim
