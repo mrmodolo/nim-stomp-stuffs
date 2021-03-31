@@ -24,5 +24,5 @@ docs:
 	#nim buildIndex ${FILES}
 
 clean:
-	cat .gitignore | xargs rm -rf
+	rm -rf build/*
 
